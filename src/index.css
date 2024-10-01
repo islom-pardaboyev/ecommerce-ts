@@ -1,0 +1,11 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.ant-rate-star-zero div span svg path{
+    fill: #bfbfbf !important;
+}
+
+*{
+    scroll-behavior: smooth;
+}
