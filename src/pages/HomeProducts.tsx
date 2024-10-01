@@ -56,7 +56,7 @@ function HomeProducts() {
         showSearch size="large"
         className="w-[30vw] float-end"
         onChange={(e) => setFilterByBrand(e)}
-        placeholder="Select a person"
+        placeholder="Select a brand"
         filterOption={(input, option) =>
           (option?.label ?? "").toLowerCase().includes(input.toLowerCase())
         }
